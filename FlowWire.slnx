@@ -1,9 +1,11 @@
 <Solution>
   <Folder Name="/Aspire/">
     <Project Path="src/FlowWire.AppHost/FlowWire.AppHost.csproj" />
-  </Folder>
-  <Folder Name="/Modules/">
     <Project Path="src/FlowWire.ServiceDefaults/FlowWire.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="src/FlowWire.Abstractions/FlowWire.Abstractions.csproj" />
+    <Project Path="src/FlowWire.Core/FlowWire.Core.csproj" />
   </Folder>
   <Folder Name="/Solution Config/">
     <File Path="Directory.Build.props" />
