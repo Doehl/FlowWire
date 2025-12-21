@@ -6,6 +6,7 @@
   <Folder Name="/Core/">
     <Project Path="src/FlowWire.Abstractions/FlowWire.Abstractions.csproj" />
     <Project Path="src/FlowWire.Core/FlowWire.Core.csproj" />
+    <Project Path="src/FlowWire.SourceGenerators/FlowWire.SourceGenerators.csproj" Id="df872c32-c642-4144-8d03-7c8f90aec119" />
   </Folder>
   <Folder Name="/Solution Config/">
     <File Path="Directory.Build.props" />
@@ -13,5 +14,6 @@
   </Folder>
   <Folder Name="/Tests/">
     <Project Path="tests/FlowWire.Tests/FlowWire.Tests.csproj" />
+    <Project Path="tests/FlowWire.SourceGenerators.Tests/FlowWire.SourceGenerators.Tests.csproj" />
   </Folder>
 </Solution>
