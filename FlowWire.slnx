@@ -3,6 +3,9 @@
     <Project Path="src/FlowWire.AppHost/FlowWire.AppHost.csproj" />
     <Project Path="src/FlowWire.ServiceDefaults/FlowWire.ServiceDefaults.csproj" />
   </Folder>
+  <Folder Name="/Benchmarks/">
+    <Project Path="benchmarks/FlowWire.Benchmarks/FlowWire.Benchmarks.csproj" Id="28d781e5-a40b-4f93-8f4b-064bd5febc16" />
+  </Folder>
   <Folder Name="/Core/">
     <Project Path="src/FlowWire.Abstractions/FlowWire.Abstractions.csproj" />
     <Project Path="src/FlowWire.Core/FlowWire.Core.csproj" />
