@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\FlowWire.Abstractions\FlowWire.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\FlowWire.Engine\FlowWire.Engine.csproj" />
   </ItemGroup>
 
 </Project>
