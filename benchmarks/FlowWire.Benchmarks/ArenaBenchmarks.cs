@@ -33,11 +33,6 @@ public class ArenaBenchmarks
         _arena.Allocate(10240);
     }
 
-    // This is expected to FAIL before the fix
-    // [Benchmark] 
-    // Commented out to prevent crash during baseline run, strictly speaking.
-    // However, user asked for pre/post benchmark. 
-    // I will enable it, knowing it might crash the benchmark runner or just throw an Exception report.
     [Benchmark]
     public void Alloc_Large_Grow()
     {
@@ -49,11 +44,8 @@ public class ArenaBenchmarks
     [Benchmark]
     public void Alloc_And_Trim()
     {
-         _arena.Reset();
-         // Force growth
-         _arena.Allocate(70000);
-         
-         // Reset should trim if implemented
-         _arena.Reset();
+        _arena.Reset();
+        _arena.Allocate(70000);
+        _arena.Reset();
     }
 }
