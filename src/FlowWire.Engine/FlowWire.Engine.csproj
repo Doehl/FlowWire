@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>FlowWire.Engine</AssemblyName>
+    <PackageId>FlowWire.Engine</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="FlowWire.Engine.Tests" />
+    <InternalsVisibleTo Include="FlowWire.Benchmarks" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\FlowWire.Abstractions\FlowWire.Abstractions.csproj" />
+    <ProjectReference Include="..\FlowWire.Core\FlowWire.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" />
+  </ItemGroup>
+
+</Project>
